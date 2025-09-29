@@ -1,0 +1,35 @@
+:root{
+    --mainColor: #EEEDE7;
+    --mainFont: "Poppins", sans-serif;
+    --colorFont: #503217
+}
+body{
+    height: 5000px;
+}
+.navbar-brand{
+    padding: 15px 0;
+}
+.navbar-nav{
+    gap: 26px;
+}
+.navbar{
+    z-index: 1000;
+    background-color: var(--mainColor);
+}
+.icons{
+    gap: 20px;
+}
+.nav-link{
+    color: var(--colorFont);
+}
+.nav-link.dropdown-toggle::after {
+    display: none;  
+    content: none;  
+}
+.cart{
+    position: relative;
+}
+.over-cart{
+    position: absolute;
+    left: 19px;
+}
