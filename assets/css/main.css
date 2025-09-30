@@ -52,6 +52,12 @@ body{
 /*header end*/
 
 /*footer start*/
+.footer-section{
+    background-image:url(../img/footer-imgs/tree.svg), url(../img/footer-imgs/pills.svg);
+    background-position: left bottom,right top;
+    background-repeat: no-repeat;
+
+}
 .footer-info{
     column-gap:35px;
     font-family: var(--mainFont);
