@@ -22,25 +22,30 @@
     <!--Header Section-->
     <header class="position-sticky top-0">
       <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">
-            <img
-              src="./assets/img/header-imgs/Group 189.svg"
-              alt="medifit-store-logo"
-              class="img-fluid"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <div
+          class="container flex-md-row flex-sm-column justify-content-center"
+        >
+          <div class="left-side justify-content-between d-flex gap-5">
+            <a class="navbar-brand" href="./index.html">
+              <img
+                src="./assets/img/header-imgs/Group 189.svg"
+                alt="medifit-store-logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -63,10 +68,13 @@
                   <img src="./assets/img/header-imgs/dropdown.webp" alt="V" />
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Sign Up</a></li><!--important to fix later-->
+                  <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                  <!--important to fix later-->
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item text-decoration-underline" href="#">Already have an account?</a>
+                    <a class="dropdown-item text-decoration-underline" href="#"
+                      >Already have an account?</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -102,8 +110,9 @@
         </div>
       </nav>
     </header>
+
     <!--Footer Section-->
-    <footer class="footer-section text-lg-start text-md-start text-center">
+    <footer class="footer-section text-lg-start text-md-start text-center py-5">
       <div class="container">
         <div class="row row-gap-5">
           <div
