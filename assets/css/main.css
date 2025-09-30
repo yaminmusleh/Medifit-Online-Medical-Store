@@ -4,6 +4,7 @@
     --colorFont: #503217;
     --textFontColor: #8F7D6A;
 }
+
 body{
     height: 5000px;
 }
@@ -35,6 +36,19 @@ body{
     position: absolute;
     left: 19px;
 }
+@media (max-width: 575px) {
+  .navbar .container {
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+}
+@media (max-width: 275px) {
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
 /*header end*/
 
 /*footer start*/
