@@ -1,11 +1,13 @@
 :root{
     --mainColor: #EEEDE7;
     --mainFont: "Poppins", sans-serif;
-    --colorFont: #503217
+    --colorFont: #503217;
+    --textFontColor: #8F7D6A;
 }
 body{
     height: 5000px;
 }
+/*Header Section start*/
 .navbar-brand{
     padding: 15px 0;
 }
@@ -33,3 +35,72 @@ body{
     position: absolute;
     left: 19px;
 }
+/*header end*/
+
+/*footer start*/
+.footer-info{
+    column-gap:35px;
+    font-family: var(--mainFont);
+}
+.info{
+    row-gap: 32px;
+}
+.info h2{
+    font-size: 24px;
+    color: var(--colorFont);
+}
+.info ul{
+    font-size: 17px;
+    color: var(--textFontColor);
+}
+.info .unique{
+    color: var(--colorFont);
+}
+.footer-section{
+    background-color: var(--mainColor);
+    padding-bottom: 107px;
+}
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+.medifit-image img{
+    height: 74px;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 100%;
+}
+.description-for-footer{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:var(--textFontColor);
+}
+
+.footer-addresses .address{
+    row-gap: 30px;
+}
+.address{
+    font-family: var(--mainFont);
+}
+.address h2{
+    font-size: 24px;
+    color: var(--colorFont);
+}
+.address .add-info{
+    color: var(--textFontColor);
+    font-size: 18px;
+}
+.footer-addresses{
+    gap: 107px;
+}
+.footer-addresses h2{
+    font-size: 24px;
+    color: var(--colorFont);
+}
+.cont-info .cont a{
+    color: var(--textFontColor);
+    font-size: 18px;
+}
+.contact-footer-info{
+    row-gap: 30px;
+}
+/*footer end*/
