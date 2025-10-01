@@ -7,6 +7,9 @@
 
 
 /*Header Section start*/
+header {
+    z-index: 1000;
+}
 .navbar-brand{
     padding: 15px 0;
 }
@@ -14,6 +17,7 @@
     gap: 26px;
 }
 .navbar{
+    position: relative;
     z-index: 1000;
     background-color: var(--mainColor);
 }
@@ -39,7 +43,7 @@
 /*header end*/
 
 
-/*Header start*/
+/*hero start*/
 .hero-sec{
     background-color: #E8E6DE;
     background-image: url(../img/hero-index-html/doctor.svg);
@@ -101,7 +105,45 @@
     font-size: 32px;
   }
 }
-/*Header end*/
+/*hero end*/
+
+/*shop by category start*/
+.shop-by-categ{
+    background-color: var(--mainColor);
+    background-image: url(../img/shop-by-categ-imgs/medical\ shape.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.shop-by-categ h2{
+    font-size: 48px;
+    font-family: var(--mainFont);
+    color: var(--colorFont);
+}
+.category-icon img{
+    max-width: 80px;
+}
+.category-card{
+    border-color: var(--textFontColor);
+    transition: all 0.4s ease;
+    position: relative;
+}
+.category-card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+@media (max-width: 768px) {
+  .shop-by-categ h2 {
+    font-size: 42px;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .shop-by-categ h2 {
+    font-size: 32px;
+  }
+}
+/*shop by category end*/
 /*footer start*/
 .footer-section{
     background-image:url(../img/footer-imgs/tree.svg), url(../img/footer-imgs/pills.svg);
