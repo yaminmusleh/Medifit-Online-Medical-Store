@@ -1,1 +1,247 @@
-2
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Medical Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <header class="position-sticky top-0">
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="container flex-md-row flex-sm-column justify-content-center"
+        >
+          <div class="left-side justify-content-between d-flex gap-5">
+            <a class="navbar-brand" href="./index.html">
+              <img
+                src="./assets/img/header-imgs/Group 189.svg"
+                alt="medifit-store-logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop-detail.html">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                  <img src="./assets/img/header-imgs/dropdown.webp" alt="V" />
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                  <!--important to fix later-->
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-decoration-underline" href="#"
+                      >Already have an account?</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="icons d-flex">
+              <a href="#">
+                <img
+                  src="./assets/img/header-imgs/Vectorforheader.webp"
+                  alt="search-icon"
+                />
+              </a>
+              <div class="cart">
+                <a href="#">
+                  <img
+                    src="./assets/img/header-imgs/cartforheader.webp"
+                    alt="cart-icon"
+                  />
+                </a>
+                <img
+                  class="over-cart"
+                  src="./assets/img/header-imgs/over-cart-icon.svg"
+                  alt="over-cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Footer Section-->
+    <footer class="footer-section text-lg-start text-md-start text-center py-5">
+      <div class="container">
+        <div class="row row-gap-5">
+          <div
+            class="footer-info d-flex col-12 col-md-6 col-lg-3 flex-lg-row flex-column flex-md-row"
+          >
+            <div class="info d-flex flex-column mb-3 mb-lg-0">
+              <div class="name">
+                <h2>Pages</h2>
+              </div>
+              <div class="info-details">
+                <ul class="list-unstyled d-flex flex-column row-gap-3">
+                  <li> <a href="./home.html">Home</a></li>
+                  <li> <a href="./shop-detail.html">Shop</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li> <a href="#">Privacy Policy</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="info d-flex flex-column">
+              <div class="name"><h2>Utility</h2></div>
+
+              <div class="info-details">
+                <ul class="list-unstyled d-flex flex-column row-gap-3">
+                  <li><a href="#">Style guide</a></li>
+                  <li><a href="#">Instruction</a></li>
+                  <li><a href="#">Changelog</a></li>
+                  <li><a href="#">Licenses</a></li>
+                  <li><a href="#">Link in bio</a></li>
+                  <li><a href="#">Error 404</a></li>
+                  <li><a href="#">Password protected</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="footer-socials col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center row-gap-3"
+          >
+            <div class="medifit-image">
+              <img
+                src="./assets/img/footer-imgs/Group 189.svg"
+                alt="medifit-store-image"
+              />
+            </div>
+            <div class="description-for-footer text-center">
+              <p>
+                We provide the ultimate solution <br />
+                for your online store and <br />
+                healthcare needs.
+              </p>
+            </div>
+            <div
+              class="social-icons d-flex flex-md-row flex-column column-gap-4 row-gap-2"
+            >
+              <a href="#">
+                <img
+                  src="./assets/img/footer-imgs/facebook-icon.svg"
+                  alt="facebook-icon"
+                />
+              </a>
+              <a href="#"
+                ><img
+                  src="./assets/img/footer-imgs/insta-icon.svg"
+                  alt="insta-icon"
+              /></a>
+              <a href="#">
+                <img
+                  src="./assets/img/footer-imgs/twitter-icon.svg"
+                  alt="twitter-icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/img/footer-imgs/youtube-icon.svg"
+                  alt="youtube-icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="footer-addresses justify-content-md-between col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center align-items-md-start"
+          >
+            <div class="address d-flex flex-column">
+              <h2>Address</h2>
+              <div class="add-info d-flex align-items-start">
+                <img
+                  src="./assets/img/footer-imgs/pin-for-address.svg"
+                  alt="pin-for-address"
+                />
+                <span class="ms-1"
+                  >1640 Parker Rd. Allentown,<br />
+                  New Mexico 31134</span
+                >
+              </div>
+            </div>
+            <div class="contact-footer-info d-flex flex-column">
+              <h2>Contact</h2>
+              <div class="cont-info d-flex flex-column">
+                <div class="cont cont1">
+                  <img
+                    src="./assets/img/footer-imgs/email-icon.svg"
+                    alt="email-icon"
+                  />
+                  <a href="mailto:hello@gmail.com" class="text-decoration-none"
+                    >hello@gmail.com</a
+                  >
+                </div>
+                <div class="cont cont2">
+                  <img
+                    src="./assets/img/footer-imgs/phone-icon.svg"
+                    alt="phone-icon"
+                  />
+                  <a href="tel:+(209) 555-0104" class="text-decoration-none"
+                    >(209) 555-0104</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

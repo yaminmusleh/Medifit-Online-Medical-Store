@@ -5,9 +5,7 @@
     --textFontColor: #8F7D6A;
 }
 
-body{
-    height: 5000px;
-}
+
 /*Header Section start*/
 .navbar-brand{
     padding: 15px 0;
@@ -36,21 +34,74 @@ body{
     position: absolute;
     left: 19px;
 }
-@media (max-width: 575px) {
-  .navbar .container {
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-  }
-}
-@media (max-width: 275px) {
-  .navbar-toggler {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.8rem;
-  }
-}
+
 
 /*header end*/
 
+
+/*Header start*/
+.hero-sec{
+    background-color: #E8E6DE;
+    background-image: url(../img/hero-index-html/doctor.svg);
+    background-repeat: no-repeat;
+    background-position:  left bottom;
+    background-size: 270px;
+}
+.hero-btn button{
+    display: flex;
+    gap: 10px;
+    color:#F2F2F2;
+    background-color: var(--colorFont);
+    font-family: sans-serif;
+    
+}
+
+.hero-btn button:hover{
+    background-color: #7A4B2A;
+    color: #F2F2F2;
+    transition: all 0.4s ease;
+}
+
+.hero-img img{
+    width: 667px;;
+    height: auto;
+    max-width: 100%;
+    
+}
+.hero-info h1{
+    font-size: 80px;
+    font-family: var(--mainFont);
+    color: var(--colorFont);
+}
+.hero-info .info-after-h1{
+    color: var(--textFontColor);
+    font-family: sans-serif;
+}
+@media (max-width: 1200px) {
+  .hero-info h1 {
+    font-size: 56px;
+  }
+}
+@media (max-width: 992px) {
+  .hero-info h1 {
+    font-size: 46px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-info h1 {
+    font-size: 42px;
+  }
+  .hero-sec{
+    background-size: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-info h1 {
+    font-size: 32px;
+  }
+}
+/*Header end*/
 /*footer start*/
 .footer-section{
     background-image:url(../img/footer-imgs/tree.svg), url(../img/footer-imgs/pills.svg);
