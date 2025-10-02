@@ -144,6 +144,96 @@ header {
   }
 }
 /*shop by category end*/
+
+
+/*Latest health prods start*/
+.latest-prods{
+    background-color: var(--mainColor);
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    background-color: #F2F2F2;
+    transition: all 0.4s ease;
+    height: 70%;
+    position: relative;
+}
+.card-img-latest button {
+    background-color: #E2DFCF;
+    font-family: var(--mainFont);
+    font-size: 16px;
+    color: var(--colorFont);
+    width: 100%;
+    visibility: hidden;
+}
+.card-img-latest a{
+    color: var(--colorFont);
+    width: 100%;
+}
+.latest-prods .card-body{
+    font-family: var(--mainFont);
+    background-color: var(--mainColor);
+}
+.card-body{
+    margin-top: 10px;
+}
+.card-body h2{
+    color: var(--colorFont);
+    font-size: 24px;
+}
+.card-body span{
+    font-size: 18px;
+    color: var(--textFontColor);
+}
+.latest-prods .title-for-latest{
+    font-size: 48px;
+    color: var(--colorFont);
+}
+.latest-prods .something-to-position{
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    width: fit-content;
+    background-color: #D3744A;
+    color: white;
+    border-radius: 14px;
+    display: none;
+    pointer-events: none;
+}
+.card:hover{
+    transform: scale(1.05);
+    height: auto;
+}
+.card:hover .something-to-position{
+    display: block;
+
+}
+.card:hover button{
+    visibility: visible;
+    background-color: #E2DFCF;
+}
+.card button:hover{
+    background-color: #E8E6DE;
+}
+
+@media (max-width: 768px) {
+  .latest-prods .title-for-latest {
+    font-size: 42px !important;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .latest-prods .title-for-latest {
+    font-size: 32px !important;
+  }
+  
+}
+/*latest health prods end*/
+
+
 /*footer start*/
 .footer-section{
     background-image:url(../img/footer-imgs/tree.svg), url(../img/footer-imgs/pills.svg);
