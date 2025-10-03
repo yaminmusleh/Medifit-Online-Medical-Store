@@ -139,95 +139,6 @@ header {
 }
 /*shop by category end*/
 
-/*Latest health prods start*/
-.latest-prods {
-  background-color: var(--mainColor);
-}
-.card-img-top {
-  width: 200px;
-  height: 200px;
-}
-.card {
-  background-color: #f2f2f2;
-  transition: all 0.4s ease;
-  height: 70%;
-  position: relative;
-}
-.card-img-latest button {
-  background-color: #e2dfcf;
-  font-family: var(--mainFont);
-  font-size: 16px;
-  color: var(--colorFont);
-  width: 100%;
-  visibility: hidden;
-}
-.card-img-latest a {
-  color: var(--colorFont);
-  width: 100%;
-}
-.latest-prods .card-body {
-  font-family: var(--mainFont);
-  background-color: var(--mainColor);
-}
-.card-body {
-  margin-top: 10px;
-}
-.card-body h2 {
-  color: var(--colorFont);
-  font-size: 24px;
-}
-.card-body span {
-  font-size: 18px;
-  color: var(--textFontColor);
-}
-.latest-prods .title-for-latest {
-  font-size: 48px;
-  color: var(--colorFont);
-}
-.latest-prods .something-to-position {
-  position: absolute;
-  top: 14px;
-  left: 13px;
-  width: fit-content;
-  background-color: #d3744a;
-  color: white;
-  border-radius: 14px;
-  display: none;
-  pointer-events: none;
-}
-.card:hover {
-  transform: scale(1.05);
-  height: auto;
-}
-.card:hover .something-to-position {
-  display: block;
-}
-.card:hover button {
-  visibility: visible;
-  background-color: #e2dfcf;
-}
-.card button:hover {
-  background-color: #e8e6de;
-}
-.card-img-top {
-  position: relative;
-}
-
-@media (max-width: 768px) {
-  .latest-prods .title-for-latest {
-    font-size: 42px !important;
-  }
-}
-
-@media (max-width: 576px) {
-  .latest-prods .title-for-latest {
-    font-size: 32px !important;
-  }
-}
-@media (max-width: 576px) {
-}
-/*latest health prods end*/
-
 /*Medical cards Section start*/
 .medical-cards {
   background-color: var(--mainColor);
@@ -281,6 +192,147 @@ header {
   color: var(--colorFont);
 }
 /*Medical cards Section end*/
+
+/*Latest health prods start*/
+.latest-prods {
+  background-color: var(--mainColor);
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  background-color: #f2f2f2;
+  transition: all 0.4s ease;
+  height: 70%;
+  position: relative;
+}
+.card-img-latest button {
+  background-color: #e2dfcf;
+  font-family: var(--mainFont);
+  font-size: 16px;
+  color: var(--colorFont);
+  width: 100%;
+  visibility: hidden;
+}
+.card-img-latest a {
+  color: var(--colorFont);
+  width: 100%;
+}
+.latest-prods .card-body {
+  font-family: var(--mainFont);
+  background-color: var(--mainColor);
+}
+.card-body {
+  margin-top: 10px;
+}
+.card-body h2 {
+  color: var(--colorFont);
+  font-size: 24px;
+}
+.card-body span {
+  font-size: 18px;
+  color: var(--textFontColor);
+}
+.latest-prods .title-for-latest {
+  font-size: 48px;
+  color: var(--colorFont);
+}
+.latest-prods .something-to-position {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  width: fit-content;
+  background-color: #d3744a;
+  color: white;
+  border-radius: 14px;
+  
+  pointer-events: none;
+}
+.card:hover {
+  transform: scale(1.05);
+  height: auto;
+}
+
+.card:hover button {
+  visibility: visible;
+  background-color: #e2dfcf;
+}
+.card button:hover {
+  background-color: #e8e6de;
+}
+.card-img-top {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .latest-prods .title-for-latest {
+    font-size: 42px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .latest-prods .title-for-latest {
+    font-size: 32px !important;
+  }
+}
+@media (max-width: 576px) {
+}
+/*latest health prods end*/
+
+/*newsletter start*/
+
+.newsletter{
+  background-color: var(--mainColor);
+}
+.news1{
+  background-color: #F2F2F2;
+}
+.news-bottom{
+  margin-bottom: 60px;
+}
+.btn-letter{
+  background-color: var(--colorFont);
+  color: white;
+  border-radius: 8px!important;
+}
+.navbar-letter .btn-letter {
+  width: 150px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.news-top span{
+  font-size: 24px;
+  font-family: var(--mainFont);
+  color: #6C543E;
+}
+.news-top h2{
+  font-family: var(--mainFont);
+  font-size: 40px;
+  color: var(--colorFont);
+}
+.form-control{
+  border-radius: 8px!important;
+  border-color: var(--colorFont);
+  background-color: #EBE9E0;
+  padding-left: 41px;
+  
+}
+.form-control::placeholder{
+  font-family: sans-serif;
+  color: var(--textFontColor);
+}
+.form-for-letter{
+  position: relative;
+}
+.input-group .unique-img{
+  position: absolute;
+  top: 8px;
+  left: 12px;
+}
+/*newsletter end*/
 
 /*footer start*/
 .footer-section {
