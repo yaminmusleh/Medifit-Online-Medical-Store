@@ -280,6 +280,28 @@ header {
 }
 /*latest health prods end*/
 
+/*Explore store section start*/
+
+.explore-store{
+  background-color: var(--mainColor);
+}
+.explore-store .title-for-explore{
+  color: var(--colorFont);
+  font-size: 48px;
+}
+@media (max-width: 768px) {
+  .explore-store .title-for-explore {
+    font-size: 42px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .explore-store .title-for-explore {
+    font-size: 32px !important;
+  }
+}
+/*Explore store section end*/
+
 /*newsletter start*/
 
 .newsletter{
