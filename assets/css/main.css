@@ -196,6 +196,9 @@ header {
 /*Latest health prods start*/
 .latest-prods {
   background-color: var(--mainColor);
+  background-image: url(../img/latest-health-prods-img/pill-for-latest.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 .card-img-top {
   width: 200px;
