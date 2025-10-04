@@ -243,7 +243,7 @@ header {
   font-size: 48px;
   color: var(--colorFont);
 }
-.latest-prods .row{
+.latest-prods .row {
   padding-top: 60px;
 }
 .latest-prods .something-to-position {
@@ -290,38 +290,76 @@ header {
 
 /*Slide start*/
 
-.slides{
+.slides {
   background-color: var(--mainColor);
   padding: 100px 0;
 }
-.slides .container{
-  background-color: #F2F2F2;
+.slides .container {
+  background-color: #f2f2f2;
   border-radius: 15px;
   padding: 13px;
 }
-.slide-info .slide-heading{
+.slide-info .slide-heading {
   color: var(--colorFont);
   font-size: clamp(12px, 2.5vw, 18px);
   font-family: var(--mainFont);
 }
-.slide-info .message{
+.slide-info .message {
   color: var(--textFontColor);
   font-size: clamp(10px, 2.5vw, 16px);
 }
-.slide-image{
+.slide-image {
   position: relative;
 }
-.positioned-icon{
+.positioned-icon {
   position: absolute;
   top: 41px;
   left: 42px;
 }
 /*Slide end*/
 
+/*Follow us section start*/
+.follow-us {
+  background-color: var(--mainColor);
+  background-image: url(../img/follow-us/pills-follow.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 139px;
+}
+.follow-us .unique-follow-img {
+  border-radius: 30px;
+}
+.follow-card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.follow-card img{
+  transition: all 0.3s ease;
+}
+.follow-card:hover{
+  transform: scale(1.05);
+}
+.follow-card img:hover{
+  filter: grayscale(50%) brightness(1.1);
+  opacity: 0.5;
+}
+.follow-card img {
+  width: clamp(150px, 20vw, 250px);
+  height: auto;
+}
+.follow-us .container {
+  row-gap: clamp(30px, 3vw, 50px);
+}
+/*Follow us section end*/
+
 /*Explore store section start*/
 
 .explore-store {
-  background-color: #E8E6DE;
+  background-color: #e8e6de;
 }
 .explore-store .title-for-explore {
   color: var(--colorFont);
@@ -343,7 +381,7 @@ header {
 /*newsletter start*/
 
 .newsletter {
-  background-color: #E8E6DE;
+  background-color: #e8e6de;
 }
 .news1 {
   background-color: #f2f2f2;
@@ -421,7 +459,7 @@ header {
   width: 100%;
   transition: all 0.3s ease;
 }
-.person-info:hover{
+.person-info:hover {
   border: 1.5px solid var(--colorFont);
   border-radius: 11px;
   border-color: var(--colorFont);
@@ -439,7 +477,7 @@ header {
   font-family: sans-serif;
 }
 @media (max-width: 1200px) {
-  .person-info{
+  .person-info {
     width: 75%;
   }
 }
