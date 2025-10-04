@@ -337,7 +337,7 @@ header {
 }
 .news-top h2 {
   font-family: var(--mainFont);
-  font-size: 40px;
+  font-size: clamp(30px, 2.5vw, 40px);
   color: var(--colorFont);
 }
 .form-control {
@@ -364,25 +364,52 @@ header {
 .happy-clients {
   background-color: var(--mainColor);
 }
-.happy-clients .title-for-clients{
-  font-size: 48px;
+
+.happy-clients .title-for-clients {
+  font-size: clamp(30px, 2.5vw, 48px);
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
 .quote-clients {
   border-radius: 30px;
-  padding: 97px 133px 55px 133px;
+  padding: clamp(2rem, 5vw, 6rem);
   background-color: #f2f2f2;
   background-image: url(../img/our-happy-clients/quote.svg);
   background-repeat: no-repeat;
-  background-position: 26px 14px;
+  background-position: 11px -4px;
   max-width: 100%;
 }
-.quote-clients span{
-  font-size: 18px;
+.quote-clients span {
+  font-size: clamp(12px, 2.5vw, 18px);
+  font-family: sans-serif;
+  color: var(--textFontColor);
+}
+.person-info {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.person-info:hover{
+  border: 1.5px solid var(--colorFont);
+  border-radius: 11px;
+  border-color: var(--colorFont);
+  transform: scale(1.05);
+}
+.person-info .person-details {
+  font-size: clamp(12px, 2.5vw, 18px);
+}
+.person-info .person-details .person-name {
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+}
+.person-info .person-details .person-position {
+  color: var(--textFontColor);
   font-family: sans-serif;
 }
-
+@media (max-width: 1200px) {
+  .person-info{
+    width: 75%;
+  }
+}
 /*Our Happy Clients section end*/
 /*footer start*/
 .footer-section {
