@@ -243,6 +243,9 @@ header {
   font-size: 48px;
   color: var(--colorFont);
 }
+.latest-prods .row{
+  padding-top: 60px;
+}
 .latest-prods .something-to-position {
   position: absolute;
   top: 14px;
@@ -285,10 +288,40 @@ header {
 }
 /*latest health prods end*/
 
+/*Slide start*/
+
+.slides{
+  background-color: var(--mainColor);
+  padding: 100px 0;
+}
+.slides .container{
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 13px;
+}
+.slide-info .slide-heading{
+  color: var(--colorFont);
+  font-size: clamp(12px, 2.5vw, 18px);
+  font-family: var(--mainFont);
+}
+.slide-info .message{
+  color: var(--textFontColor);
+  font-size: clamp(10px, 2.5vw, 16px);
+}
+.slide-image{
+  position: relative;
+}
+.positioned-icon{
+  position: absolute;
+  top: 41px;
+  left: 42px;
+}
+/*Slide end*/
+
 /*Explore store section start*/
 
 .explore-store {
-  background-color: var(--mainColor);
+  background-color: #E8E6DE;
 }
 .explore-store .title-for-explore {
   color: var(--colorFont);
@@ -310,7 +343,7 @@ header {
 /*newsletter start*/
 
 .newsletter {
-  background-color: var(--mainColor);
+  background-color: #E8E6DE;
 }
 .news1 {
   background-color: #f2f2f2;
