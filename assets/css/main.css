@@ -190,7 +190,7 @@ header {
 }
 .title-for-medical-cards {
   font-family: var(--mainFont);
-  font-size: 24px;
+  font-size: clamp(16px, 3vw, 24px);
   color: var(--colorFont);
 }
 /*Medical cards Section end*/
@@ -215,7 +215,7 @@ header {
 .card-img-latest button {
   background-color: #e2dfcf;
   font-family: var(--mainFont);
-  font-size: 16px;
+  font-size: clamp(12px, 3vw, 16px);
   color: var(--colorFont);
   width: 100%;
   visibility: hidden;
@@ -233,14 +233,14 @@ header {
 }
 .card-body h2 {
   color: var(--colorFont);
-  font-size: 24px;
+  font-size: clamp(16px, 3vw, 24px);
 }
 .card-body span {
-  font-size: 18px;
+  font-size: clamp(13px, 3vw, 18px);
   color: var(--textFontColor);
 }
 .latest-prods .title-for-latest {
-  font-size: 48px;
+  font-size: clamp(30px, 3vw, 48px);
   color: var(--colorFont);
 }
 .latest-prods .row {
@@ -273,19 +273,6 @@ header {
   position: relative;
 }
 
-@media (max-width: 768px) {
-  .latest-prods .title-for-latest {
-    font-size: 42px !important;
-  }
-}
-
-@media (max-width: 576px) {
-  .latest-prods .title-for-latest {
-    font-size: 32px !important;
-  }
-}
-@media (max-width: 576px) {
-}
 /*latest health prods end*/
 
 /*Slide start*/
@@ -332,23 +319,42 @@ header {
 .follow-card {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   position: relative;
   transition: all 0.3s ease;
 }
-
-.follow-card img{
+.title-for-follow {
+  font-size: clamp(30px, 3vw, 48px);
+  color: var(--colorFont);
+}
+.follow-card .the-image {
   transition: all 0.3s ease;
 }
-.follow-card:hover{
-  transform: scale(1.05);
+.follow-card .overlay{
+  display: none;
 }
-.follow-card img:hover{
-  filter: grayscale(50%) brightness(1.1);
+.follow-card .overlay .overlay-text{
+  cursor: pointer;
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+  font-weight: 500;
+  margin-top: 10px;
+}
+.follow-card:hover .overlay {
+  display: block;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  
+}
+.follow-card:hover .the-image {
+  filter: grayscale(30%) brightness(1);
   opacity: 0.5;
 }
-.follow-card img {
-  width: clamp(150px, 20vw, 250px);
+.follow-card .the-image {
+  width: clamp(170px, 20vw, 250px);
   height: auto;
 }
 .follow-us .container {
