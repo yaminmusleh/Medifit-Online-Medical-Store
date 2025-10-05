@@ -572,18 +572,45 @@ header {
 
 /*-------------------shop-detail.html start-------------------*/
 
-
 /*recent products section start*/
+.latest-prods-recent {
+  position: relative; /* Needed to contain the absolute ::before */
+  background-color: var(--mainColor);
+  background-image: url(../img/latest-health-prods-img/pill-for-latest.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  overflow: hidden; /* Prevents ::before from overflowing if needed */
+}
+
 .latest-prods-recent::before {
   content: "";
   position: absolute;
-  inset: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: var(--mainColor);
   z-index: 1;
   pointer-events: none;
+  opacity: 1;
 }
+
 .latest-prods-recent > * {
   position: relative;
   z-index: 2;
+}
+
+.cta-section .cta-text {
+  font-size: clamp(23px, 3vw, 45px) !important;
+}
+.cta-section .cta-description {
+  font-size: clamp(15px, 3vw, 18px)!important;
+  font-family: sans-serif;
+}
+.cta-section{
+  background-color: var(--mainColor);
+}
+.cta-section .container{
+  background-color: #F2F2F2;
 }
 /*recent products section end*/
