@@ -26,6 +26,8 @@ header {
 }
 .nav-link {
   color: var(--colorFont);
+  font-family: sans-serif;
+  font-size: 18px;
 }
 .nav-link.dropdown-toggle::after {
   display: none;
