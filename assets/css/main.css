@@ -9,6 +9,7 @@
 header {
   z-index: 1000;
 }
+
 .navbar-brand {
   padding: 15px 0;
 }
@@ -39,6 +40,8 @@ header {
 }
 
 /*header end*/
+
+/*index.html*/
 
 /*hero start*/
 .hero-sec {
@@ -330,10 +333,10 @@ header {
 .follow-card .the-image {
   transition: all 0.3s ease;
 }
-.follow-card .overlay{
+.follow-card .overlay {
   display: none;
 }
-.follow-card .overlay .overlay-text{
+.follow-card .overlay .overlay-text {
   cursor: pointer;
   font-family: var(--mainFont);
   color: var(--colorFont);
@@ -346,8 +349,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
-  
+  align-items: center;
 }
 .follow-card:hover .the-image {
   filter: grayscale(30%) brightness(1);
@@ -488,6 +490,11 @@ header {
   }
 }
 /*Our Happy Clients section end*/
+
+/*index.html end*/
+
+/*about.html start*/
+
 /*footer start*/
 .footer-section {
   background-image: url(../img/footer-imgs/tree.svg),
@@ -562,3 +569,21 @@ header {
   row-gap: 30px;
 }
 /*footer end*/
+
+/*-------------------shop-detail.html start-------------------*/
+
+
+/*recent products section start*/
+.latest-prods-recent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--mainColor);
+  z-index: 1;
+  pointer-events: none;
+}
+.latest-prods-recent > * {
+  position: relative;
+  z-index: 2;
+}
+/*recent products section end*/
