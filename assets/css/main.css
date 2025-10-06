@@ -641,6 +641,7 @@ header {
 }
 .prod-details .prod-img {
   width: clamp(200px, 30vw, 463px);
+  transition: all 0.4s ease;
 }
 .prod-details .extra-info .btn-dark {
   background-color: var(--colorFont) !important;
@@ -652,6 +653,11 @@ header {
   align-items: center;
   justify-content: center;
   column-gap: 5px;
+  
+}
+.prod-details .extra-info button:hover{
+  background-color: #653e1c!important;
+  transition: all 0.3s ease;
 }
 .prod-details .extra-info input {
   border-radius: 8px;
@@ -689,6 +695,9 @@ header {
   font-size: 18px;
   color: var(--textFontColor);
 }
+.prod-details .prod-img:hover{
+  transform: scale(1.05);
+}
 @media (max-width: 1200px) {
   .top-content .top-content-price .current-price {
     font-size: 30px;
@@ -707,3 +716,6 @@ header {
 }
 
 /*prod-details end*/
+
+
+/*--------------------sign in page-----------------------*/
