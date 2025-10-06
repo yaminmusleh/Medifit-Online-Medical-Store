@@ -630,3 +630,51 @@ header {
   color: var(--colorFont);
   font-weight: 500;
 }
+/*Shop services end*/
+
+/*prod-details start*/
+.prod-details{
+  background-color: var(--mainColor);
+}
+.prod-details .extra-info .btn-dark{
+  background-color: var(--colorFont)!important;
+  font-family: var(--mainFont);
+}
+.prod-details .extra-info .btn{
+padding: 17px;
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 5px;
+}
+.prod-details .extra-info input{
+border-radius: 8px;
+background-color: var(--mainColor);
+}
+.top-content .top-head h2{
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+  font-size: 70px;
+}
+.top-content .top-content-price{
+  color: var(--textFontColor);
+  font-family: var(--mainFont);
+}
+.top-content .top-content-price .current-price{
+  font-size: 48px;
+}
+.top-content .top-content-price .discount{
+  font-size: 32px;
+}
+
+.prod-details .product-description h5, .bottom-content h5{
+  font-size: 24px;
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+}
+.prod-details .product-description .desc-info{
+  font-size: 18px;
+  font-family: sans-serif;
+  color: var(--textFontColor);
+}
+/*prod-details end*/
