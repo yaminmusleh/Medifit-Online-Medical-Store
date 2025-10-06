@@ -235,6 +235,7 @@ header {
 }
 .card-body {
   margin-top: 10px;
+
 }
 .card-body h2 {
   color: var(--colorFont);
@@ -573,7 +574,9 @@ header {
 /*footer end*/
 
 /*-------------------shop-detail.html start-------------------*/
-
+.pointer-events-none{
+  pointer-events: none;
+}
 /*recent products section start*/
 .latest-prods-recent {
   position: relative; /* Needed to contain the absolute ::before */
@@ -616,3 +619,14 @@ header {
   background-color: #F2F2F2;
 }
 /*recent products section end*/
+
+/*Shop Services section start*/
+.shop-services{
+  background-color: var(--mainColor);
+
+}
+.shop-services span{
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+  font-weight: 500;
+}

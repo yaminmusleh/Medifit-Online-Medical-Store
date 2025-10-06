@@ -27,12 +27,17 @@
         >
           <div class="left-side justify-content-between d-flex gap-5">
             <a class="navbar-brand m-0 m-md-3" href="./index.html">
-              <img class="d-none d-md-block"
+              <img
+                class="d-none d-md-block"
                 src="./assets/img/header-imgs/Group 189.svg"
                 alt="medifit-store-logo"
                 class="img-fluid"
               />
-              <img class="d-block d-md-none img-fluid" src="./assets/img/hero-index-html/company-logo.svg" alt="company-logo">
+              <img
+                class="d-block d-md-none img-fluid"
+                src="./assets/img/hero-index-html/company-logo.svg"
+                alt="company-logo"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -85,7 +90,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
-              
             </ul>
             <div class="icons d-flex">
               <a href="#">
@@ -112,6 +116,62 @@
         </div>
       </nav>
     </header>
+
+    <!--Services section-->
+    <section class="shop-services py-5 text-center">
+      <div class="container">
+        <div class="row justify-content-center align-items-center gy-5 gy-lg-0">
+          <!--card1-->
+          <div class="col-12 col-md-6 col-lg-3 d-flex flex-column gap-4">
+            <div class="service-img">
+              <img
+                src="./assets/img/shop-detail/services/truck-fast.svg"
+                alt="truck-fast"
+              />
+            </div>
+            <div class="service-text">
+              <span class="pointer-events-none">Free shipping</span>
+            </div>
+          </div>
+          <!--card2-->
+          <div class="col-12 col-md-6 col-lg-3 d-flex flex-column gap-4">
+            <div class="service-img">
+              <img
+                src="./assets/img/shop-detail/services/exchange-dollar.svg"
+                alt="exchange-dollar"
+              />
+            </div>
+            <div class="service-text">
+              <span class="pointer-events-none">Easy refund</span>
+            </div>
+          </div>
+          <!--card3-->
+          <div class="col-12 col-md-6 col-lg-3 d-flex flex-column gap-4">
+            <div class="service-img">
+              <img
+                src="./assets/img/shop-detail/services/headphone-mic.svg"
+                alt="headphone-mic"
+              />
+            </div>
+            <div class="service-text">
+              <span class="pointer-events-none">Online support</span>
+            </div>
+          </div>
+          <!--card4-->
+          <div class="col-12 col-md-6 col-lg-3 d-flex flex-column gap-4">
+            <div class="service-img">
+              <img
+                src="./assets/img/shop-detail/services/credit-card.svg"
+                alt="credit-card"
+              />
+            </div>
+            <div class="service-text">
+              <span class="pointer-events-none">Fexible payment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--Recent Products section-->
     <section class="latest-prods latest-prods-recent text-center py-5">
@@ -277,7 +337,7 @@
       <div class="container py-5 py-md-0">
         <div class="row justify-content-center">
           <div
-            class="hero-info col-12 col-md-6 d-flex flex-column justify-content-center mb-3 mb-md-0 p-0 p-md-5"
+            class="hero-info col-12 col-md-6 d-flex flex-column justify-content-center mb-3 mb-md-0 p-sm-0 p-md-5"
           >
             <h1 class="mb-3 cta-text">
               Join our trustable Medifit product community
@@ -302,11 +362,13 @@
               </a>
             </div>
           </div>
-          <div class="hero-img cta-image d-none d-md-block col-6 d-flex justify-content-end">
+          <div
+            class="hero-img cta-image d-none col-6 d-md-flex"
+          >
             <img
               src="./assets/img/shop-detail/img.webp"
               alt="hero-img"
-              class="img-fluid"
+              class="img-fluid w-100 h-100"
             />
           </div>
         </div>
