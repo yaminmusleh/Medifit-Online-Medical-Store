@@ -9,6 +9,9 @@
 header {
   z-index: 1000;
 }
+.custom-background{
+  background-color: var(--mainColor);
+}
 
 .navbar-brand {
   padding: 15px 0;
@@ -621,6 +624,7 @@ header {
 }
 .cta-section .container {
   background-color: #f2f2f2;
+  border-radius: 13px;
 }
 /*recent products section end*/
 
@@ -722,25 +726,90 @@ header {
 
 
 /*--------------------sign in page-----------------------*/
-.custom-background{
-  background-color: var(--mainColor);
-}
 
 
 
 
 
 /*----------------------contact us section------------------*/
-
+.contact-section{
+  background-image: url(../img/shop-detail/b12-details/Decoration.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
 .card-contact{
   width: 34%;
 }
+@media (max-width:768px){
+.card-contact{
+  width: 100%;
+}
+.card-contact2{
+  width: 100%!important;
+}
+}
+.card-contact2{
+  width: 69%;
+}
 .tall-input{
   height: 55px;
+  background-color: var(--mainColor)!important;
+}
+.message-form{
   background-color: var(--mainColor)!important;
 }
 input[type="time"]::-webkit-inner-spin-button,
 input[type="time"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
+}
+.contact-section label{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: var(--colorFont);
+}
+.contact-header h2{
+  font-family: var(--mainFont);
+  font-weight: 400px;
+  font-size: clamp(32px,4vw,70px);
+  color: var(--colorFont);
+}
+.contact-section .more-desc{
+  color: var(--textFontColor);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.card-contact{
+  position: relative;
+}
+.card-contact2{
+  position: relative;
+}
+.card-contact .input-group .img-contact{
+  position: absolute;
+  z-index: 19;
+  left: 6px;
+  top: 22%;
+}
+.card-contact2 .input-group-unique .img-contact-unique{
+  position: absolute;
+  z-index: 19;
+  left: 6px;
+  top: 16%;
+}
+.card-contact2 .btn-dark {
+  background-color: var(--colorFont) !important;
+  font-family: var(--mainFont);
+}
+.card-contact2 .btn {
+  padding: 7px 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  
+}
+.card-contact2 button:hover{
+  background-color: #6d4522!important;
+  transition: all 0.3s ease;
 }

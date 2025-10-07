@@ -125,10 +125,13 @@
         style="background-color: var(--mainColor)"
       >
         <div class="container d-flex flex-column row-gap-5">
+          <!--top-->
           <div
             class="top-head row-gap-3 d-flex justify-content-center flex-column align-items-center"
           >
-            <div class="contact-header d-flex align-items-center">
+            <div
+              class="contact-header column-gap-2 d-flex flex-column flex-md-row align-items-center"
+            >
               <h2>Contact us</h2>
               <img src="./assets/img/contact-us/phone.svg" alt="phone-symbol" />
             </div>
@@ -138,33 +141,111 @@
             </div>
           </div>
 
+          <!--bottom-->
           <div class="row gy-5">
-            <div class="seperater d-flex justify-content-center align-items-start column-gap-3">
+            <!--seperater one-->
+            <div
+              class="seperater d-flex flex-column flex-md-row justify-content-center align-items-start column-gap-3"
+            >
               <div
                 class="card-contact d-flex flex-column text-start justify-content-center align-items-start"
               >
                 <label for="name" class="form-label">Full name</label>
-                <input type="text" id="name" class="form-control tall-input" />
+                <div class="input-group">
+                  <div class="img-contact">
+                    <img src="./assets/img/contact-us/user1.svg" alt="user1" />
+                  </div>
+
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control tall-input"
+                  />
+                </div>
               </div>
               <div
                 class="card-contact d-flex flex-column text-start justify-content-center align-items-start"
               >
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" id="email" class="form-control tall-input" />
+                <div class="input-group">
+                  <div class="img-contact">
+                    <img src="./assets/img/contact-us/user2.svg" alt="user2" />
+                  </div>
+
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control tall-input"
+                  />
+                </div>
               </div>
             </div>
-            <div class="seperater d-flex justify-content-center align-items-start column-gap-3">
+            <div
+              class="seperater d-flex justify-content-center align-items-start column-gap-3 flex-column flex-md-row"
+            >
               <div
                 class="card-contact d-flex flex-column text-start justify-content-center align-items-start"
               >
                 <label for="phoneNumber" class="form-label">Phone number</label>
-                <input type="tel" id="phone-number" class="form-control tall-input" />
+                <div class="input-group">
+                  <div class="img-contact">
+                    <img src="./assets/img/contact-us/user3.svg" alt="user3" />
+                  </div>
+                  <input
+                    type="tel"
+                    id="phone-number"
+                    class="form-control tall-input"
+                  />
+                </div>
               </div>
               <div
                 class="card-contact d-flex flex-column text-start justify-content-center align-items-start"
               >
-                <label for="time" class="form-label">Schedule to receive call</label>
-                <input type="time" id="name" class="form-control tall-input" />
+                <label for="time" class="form-label"
+                  >Schedule to receive call</label
+                >
+                <div class="input-group">
+                  <div class="img-contact">
+                    <img src="./assets/img/contact-us/user4.svg" alt="user4" />
+                  </div>
+                  <input
+                    type="time"
+                    id="name"
+                    class="form-control tall-input"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="seperater d-flex justify-content-center align-items-start"
+            >
+              <div
+                class="card-contact2 d-flex flex-column text-start justify-content-center align-items-start"
+              >
+                <div class="mb-3"></div>
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <div class="input-group-unique">
+                  <div class="img-contact-unique">
+                    <img src="./assets/img/contact-us/user5.svg" alt="user5" />
+                  </div>
+                </div>
+
+                <textarea
+                  class="form-control message-form mb-3"
+                  id="exampleFormControlTextarea1"
+                  rows="12"
+                ></textarea>
+                <a href="#" class="text-decoration-none text-white">
+                  <button class="btn btn-dark h-100">
+                    Submit
+                    <img
+                      src="./assets/img/contact-us/hand-pointer.svg"
+                      alt="cart"
+                    />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
