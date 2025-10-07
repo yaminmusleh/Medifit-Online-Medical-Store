@@ -6,13 +6,13 @@
 }
 
 /*Header Section start*/
-body{
+body {
   cursor: url(../img/cursor.svg), auto;
 }
 header {
   z-index: 1000;
 }
-.custom-background{
+.custom-background {
   background-color: var(--mainColor);
 }
 
@@ -22,7 +22,7 @@ header {
 .navbar-nav {
   gap: 26px;
 }
-.navbar-nav .nav-item .nav-link:hover{
+.navbar-nav .nav-item .nav-link:hover {
   color: #804b1c;
   transition: all 0.3s ease;
 }
@@ -481,11 +481,11 @@ header {
   transition: all 0.3s ease;
 }
 .person-info:hover {
- outline-style: solid;
- outline-width: 1.6px;
+  outline-style: solid;
+  outline-width: 1.6px;
   border-radius: 11px;
   outline-color: var(--colorFont);
- 
+
   transform: scale(1.05);
 }
 .person-info .person-details {
@@ -665,10 +665,9 @@ header {
   align-items: center;
   justify-content: center;
   column-gap: 5px;
-  
 }
-.prod-details .extra-info button:hover{
-  background-color: #653e1c!important;
+.prod-details .extra-info button:hover {
+  background-color: #653e1c !important;
   transition: all 0.3s ease;
 }
 .prod-details .extra-info input {
@@ -707,7 +706,7 @@ header {
   font-size: 18px;
   color: var(--textFontColor);
 }
-.prod-details .prod-img:hover{
+.prod-details .prod-img:hover {
   transform: scale(1.05);
 }
 @media (max-width: 1200px) {
@@ -715,88 +714,83 @@ header {
     font-size: 30px;
   }
   .top-content .top-content-price .discount {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 }
 @media (max-width: 992px) {
   .top-content .top-content-price .current-price {
     font-size: 24px;
   }
-   .top-content .top-content-price .discount {
-  font-size: 17px;
-}
+  .top-content .top-content-price .discount {
+    font-size: 17px;
+  }
 }
 
 /*prod-details end*/
 
-
 /*--------------------sign in page-----------------------*/
 
-
-
-
-
 /*----------------------contact us section------------------*/
-.contact-section{
+.contact-section {
   background-image: url(../img/shop-detail/b12-details/Decoration.svg);
   background-repeat: no-repeat;
   background-position: left bottom;
 }
-.card-contact{
+.card-contact {
   width: 34%;
 }
-@media (max-width:768px){
-.card-contact{
-  width: 100%;
+@media (max-width: 768px) {
+  .card-contact {
+    width: 100%;
+  }
+  .card-contact2 {
+    width: 100% !important;
+  }
 }
-.card-contact2{
-  width: 100%!important;
-}
-}
-.card-contact2{
+.card-contact2 {
   width: 69%;
 }
-.tall-input{
+.tall-input {
   height: 55px;
-  background-color: var(--mainColor)!important;
+  background-color: var(--mainColor) !important;
 }
-.message-form{
-  background-color: var(--mainColor)!important;
+.message-form {
+  background-color: var(--mainColor) !important;
 }
 input[type="time"]::-webkit-inner-spin-button,
 input[type="time"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
-.contact-section label{
+.contact-section label {
   font-family: sans-serif;
   font-size: 18px;
   color: var(--colorFont);
 }
-.contact-header h2{
+.contact-header h2 {
   font-family: var(--mainFont);
   font-weight: 400px;
-  font-size: clamp(32px,4vw,70px);
+  font-size: clamp(32px, 4vw, 70px);
   color: var(--colorFont);
 }
-.contact-section .more-desc{
+.contact-section .more-desc {
   color: var(--textFontColor);
   font-family: sans-serif;
   font-size: 18px;
 }
-.card-contact{
+.card-contact {
   position: relative;
 }
-.card-contact2{
+.card-contact2 {
   position: relative;
 }
-.card-contact .input-group .img-contact{
+.card-contact .input-group .img-contact {
   position: absolute;
   z-index: 19;
   left: 6px;
   top: 22%;
 }
-.card-contact2 .input-group-unique .img-contact-unique{
+.card-contact2 .input-group-unique .img-contact-unique {
   position: absolute;
   z-index: 19;
   left: 6px;
@@ -812,9 +806,55 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   align-items: center;
   justify-content: center;
   column-gap: 5px;
-  
 }
-.card-contact2 button:hover{
-  background-color: #6d4522!important;
+.card-contact2 button:hover {
+  background-color: #6d4522 !important;
   transition: all 0.3s ease;
+}
+
+/*asked questions section*/
+.asked-questions {
+  background-image: url(../img/contact-us/asked-questions/medical\ shape\ 5\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px;
+}
+.asked-questions h2 {
+  font-size: clamp(30px, 4vw, 58px);
+  color: var(--colorFont);
+}
+.ask-card {
+  outline: var(--colorFont) solid 0.5px;
+  padding: 4%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+.ask-card h5 {
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+  font-size: 24px;
+}
+.ask-card .more-ask-info {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: var(--textFontColor);
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(-10px);
+  transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+}
+.ask-card:hover .more-ask-info {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+
+  /*notes about this code for later:
+  max-height: Allows the content to collapse smoothly.
+  opacity: Fades it in/out.
+  transform: Adds a smooth "slide up" motion.
+  transition: Animates the changes.
+  */
 }
