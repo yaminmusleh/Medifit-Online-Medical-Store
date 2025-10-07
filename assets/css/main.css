@@ -21,6 +21,9 @@ header {
   z-index: 1000;
   background-color: var(--mainColor);
 }
+.white-back{
+  background-color: #F2F2F2;
+}
 .icons {
   gap: 20px;
 }
@@ -719,3 +722,25 @@ header {
 
 
 /*--------------------sign in page-----------------------*/
+.custom-background{
+  background-color: var(--mainColor);
+}
+
+
+
+
+
+/*----------------------contact us section------------------*/
+
+.card-contact{
+  width: 34%;
+}
+.tall-input{
+  height: 55px;
+  background-color: var(--mainColor)!important;
+}
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
