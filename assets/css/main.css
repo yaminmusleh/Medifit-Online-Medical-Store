@@ -6,6 +6,9 @@
 }
 
 /*Header Section start*/
+body{
+  cursor: url(../img/cursor.svg), auto;
+}
 header {
   z-index: 1000;
 }
@@ -19,14 +22,16 @@ header {
 .navbar-nav {
   gap: 26px;
 }
+.navbar-nav .nav-item .nav-link:hover{
+  color: #804b1c;
+  transition: all 0.3s ease;
+}
 .navbar {
   position: relative;
   z-index: 1000;
   background-color: var(--mainColor);
 }
-.white-back{
-  background-color: #F2F2F2;
-}
+
 .icons {
   gap: 20px;
 }
