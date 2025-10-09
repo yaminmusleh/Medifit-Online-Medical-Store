@@ -624,7 +624,21 @@ header {
 }
 /*clients slider end*/
 
-/*home service info start*/
+/*bringing trust start*/
+.bring-trust{
+  background-color: var(--mainColor);
+}
+.bring-trust .trust-header h2{
+  font-size: clamp(30px, 4vw, 48px);
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+}
+.bring-trust span{
+  font-size: clamp(14px, 4vw, 18px);
+  font-family: sans-serif;
+  color: var(--textFontColor);
+}
+
 
 
 /*-------------------------------------about.html start-------------------------------------*/
