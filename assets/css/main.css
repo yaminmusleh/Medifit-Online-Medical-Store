@@ -902,7 +902,11 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .ask-card h5 {
   color: var(--colorFont);
   font-family: var(--mainFont);
-  font-size: 24px;
+  font-size: clamp(20px, 4vw, 24px);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: start;
 }
 .ask-card .more-ask-info {
   font-family: sans-serif;
@@ -914,6 +918,12 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   transform: translateY(-10px);
   transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
 }
+.ask-card:hover h5 img{
+  transition: transform 0.5s ease;
+}
+.ask-card:hover h5 img{
+  transform: rotate(45deg);
+} 
 .ask-card:hover .more-ask-info {
   max-height: 500px;
   opacity: 1;
