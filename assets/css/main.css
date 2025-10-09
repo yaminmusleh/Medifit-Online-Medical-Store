@@ -594,6 +594,8 @@ header {
 
 
 /*---------------------Home page start----------------------*/
+
+/*clients slider start*/
 .slider{
   display: flex;
   justify-content: center;
@@ -620,6 +622,10 @@ header {
     transform: translateX(-20%);
   }
 }
+/*clients slider end*/
+
+/*home service info start*/
+
 
 /*-------------------------------------about.html start-------------------------------------*/
 .about-us {
