@@ -21,7 +21,7 @@
   <body>
     <!--Header Section-->
     <header class="position-sticky top-0">
-      <nav class="navbar white-back navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg">
         <div
           class="container flex-md-row flex-sm-column justify-content-center"
         >
@@ -101,7 +101,12 @@
                 />
               </a>
               <div class="cart">
-                <a href="#">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasExample"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                >
                   <img
                     src="./assets/img/header-imgs/cartforheader.webp"
                     alt="cart-icon"
@@ -118,6 +123,39 @@
         </div>
       </nav>
     </header>
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5
+          class="offcanvas-title"
+          style="color: var(--colorFont); font-size: 30px"
+          id="offcanvasExampleLabel"
+        >
+          Your Cart
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        class="offcanvas-body text-center"
+        style="
+          background: linear-gradient(var(--mainColor));
+          color: rgb(167, 92, 34);
+        "
+      >
+        <h4>Welcome Back!</h4>
+        <p>Check out our new arrivals and exclusive deals.</p>
+        <a href="./shop-detail.html" class="btn btn-light mt-3">Shop Now</a>
+      </div>
+    </div>
     <main>
       <!--B12 medicine details-->
       <section class="prod-details py-5 text-start">

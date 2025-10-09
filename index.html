@@ -25,14 +25,21 @@
         <div
           class="container flex-md-row flex-sm-column justify-content-center"
         >
-          <div class="left-side justify-content-between align-items-center d-flex gap-5">
+          <div
+            class="left-side justify-content-between align-items-center d-flex gap-5"
+          >
             <a class="navbar-brand m-0 m-md-3" href="./index.html">
-              <img class="d-none d-md-block"
+              <img
+                class="d-none d-md-block"
                 src="./assets/img/header-imgs/Group 189.svg"
                 alt="medifit-store-logo"
                 class="img-fluid"
               />
-              <img class="d-block d-md-none img-fluid" src="./assets/img/hero-index-html/company-logo.svg" alt="company-logo">
+              <img
+                class="d-block d-md-none img-fluid"
+                src="./assets/img/hero-index-html/company-logo.svg"
+                alt="company-logo"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -85,7 +92,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
-              
             </ul>
             <div class="icons d-flex">
               <a href="#">
@@ -95,7 +101,12 @@
                 />
               </a>
               <div class="cart">
-                <a href="#">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasExample"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                >
                   <img
                     src="./assets/img/header-imgs/cartforheader.webp"
                     alt="cart-icon"
@@ -112,7 +123,39 @@
         </div>
       </nav>
     </header>
-
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5
+          class="offcanvas-title"
+          style="color: var(--colorFont); font-size: 30px"
+          id="offcanvasExampleLabel"
+        >
+          Your Cart
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        class="offcanvas-body text-center"
+        style="
+          background: linear-gradient(var(--mainColor));
+          color: rgb(167, 92, 34);
+        "
+      >
+        <h4>Welcome Back!</h4>
+        <p>Check out our new arrivals and exclusive deals.</p>
+        <a href="./shop-detail.html" class="btn btn-light mt-3">Shop Now</a>
+      </div>
+    </div>
     <main>
       <!--Hero Section-->
       <section class="hero-sec text-center text-md-start py-5">
@@ -123,7 +166,7 @@
             >
               <h1 class="mb-3">Your trusted care now and always</h1>
               <div class="info-after-h1 mb-5">
-                <p >
+                <p>
                   For the best results, align your health needs with your
                   medication plan.
                 </p>
@@ -131,14 +174,14 @@
               <div
                 class="hero-btn d-flex justify-content-md-start justify-content-center"
               >
-              <a href="#shop-by-medifit" class="text-decoration-none">
-                <button type="button" class="btn btn-outline-dark">
-                  <img
-                    src="./assets/img/hero-index-html/bag.svg"
-                    alt="bag-icon"
-                  />
-                  Shop now
-                </button>
+                <a href="#shop-by-medifit" class="text-decoration-none">
+                  <button type="button" class="btn btn-outline-dark">
+                    <img
+                      src="./assets/img/hero-index-html/bag.svg"
+                      alt="bag-icon"
+                    />
+                    Shop now
+                  </button>
                 </a>
               </div>
             </div>
@@ -287,7 +330,9 @@
                           src="./assets/img/medical-cards/bag-shopping.svg"
                           alt="bag-shopping"
                         />
-                        <a href="./shop-detail.html" class="card-text text-decoration-none"
+                        <a
+                          href="./shop-detail.html"
+                          class="card-text text-decoration-none"
                           >Shop now</a
                         >
                       </div>
@@ -324,7 +369,9 @@
                           src="./assets/img/medical-cards/eye.svg"
                           alt="bag-shopping"
                         />
-                        <a href="./shop-detail.html" class="card-text text-decoration-none"
+                        <a
+                          href="./shop-detail.html"
+                          class="card-text text-decoration-none"
                           >Discover now</a
                         >
                       </div>
@@ -361,7 +408,9 @@
                           src="./assets/img/medical-cards/eye.svg"
                           alt="bag-shopping"
                         />
-                        <a href="./shop-detail.html" class="card-text text-decoration-none"
+                        <a
+                          href="./shop-detail.html"
+                          class="card-text text-decoration-none"
                           >Discover now</a
                         >
                       </div>
@@ -545,34 +594,53 @@
         <div class="container">
           <div class="row justify-content-center">
             <!--slide1-->
-            <div class="slide-card col-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center align-items-center column-gap-2">
+            <div
+              class="slide-card col-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center align-items-center column-gap-2"
+            >
               <div class="slide-image">
-                <img src="./assets/img/slide/triangle.svg" alt="triangle">
-                <img class="positioned-icon"  src="./assets/img/slide/shield-check.svg" alt="shield-check">
+                <img src="./assets/img/slide/triangle.svg" alt="triangle" />
+                <img
+                  class="positioned-icon"
+                  src="./assets/img/slide/shield-check.svg"
+                  alt="shield-check"
+                />
               </div>
-              <div class="slide-info d-flex flex-column align-items-start row-gap-1 text-start">
+              <div
+                class="slide-info d-flex flex-column align-items-start row-gap-1 text-start"
+              >
                 <span class="slide-heading">30 Days warranty</span>
                 <span class="message">Enjoy peace of mind with warranty</span>
               </div>
             </div>
             <!--slide2-->
-            <div class="slide-card col-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center align-items-center column-gap-2">
+            <div
+              class="slide-card col-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center align-items-center column-gap-2"
+            >
               <div class="slide-image">
-                <img src="./assets/img/slide/triangle.svg" alt="triangle">
-                <img class="positioned-icon" src="./assets/img/slide/arrow-left-arrow-right.svg" alt="arrow-left-arrow-right">
+                <img src="./assets/img/slide/triangle.svg" alt="triangle" />
+                <img
+                  class="positioned-icon"
+                  src="./assets/img/slide/arrow-left-arrow-right.svg"
+                  alt="arrow-left-arrow-right"
+                />
               </div>
-              <div class="slide-info d-flex flex-column align-items-start row-gap-1 text-start">
+              <div
+                class="slide-info d-flex flex-column align-items-start row-gap-1 text-start"
+              >
                 <span class="slide-heading">Exchange policy</span>
                 <span class="message">You’re satisfied with your purchase</span>
               </div>
             </div>
             <!--slide3-->
-            <div class="slide-card col-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center align-items-center column-gap-2">
+            <div
+              class="slide-card col-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center align-items-center column-gap-2"
+            >
               <div class="slide-image">
-                <img src="./assets/img/slide/payment.svg" alt="payment">
-                
+                <img src="./assets/img/slide/payment.svg" alt="payment" />
               </div>
-              <div class="slide-info d-flex flex-column align-items-start row-gap-1 text-start">
+              <div
+                class="slide-info d-flex flex-column align-items-start row-gap-1 text-start"
+              >
                 <span class="slide-heading">Secure payment</span>
                 <span class="message">Shop with confidence every time</span>
               </div>
@@ -1037,7 +1105,9 @@
                     />
                   </div>
 
-                  <div class="person-details d-flex flex-column text-center text-md-start">
+                  <div
+                    class="person-details d-flex flex-column text-center text-md-start"
+                  >
                     <span class="person-name">Ethan Harris</span>
                     <span class="person-position">Business manager</span>
                   </div>
@@ -1055,7 +1125,9 @@
                     />
                   </div>
 
-                  <div class="person-details d-flex flex-column text-center text-md-start">
+                  <div
+                    class="person-details d-flex flex-column text-center text-md-start"
+                  >
                     <span class="person-name">Lily Baker</span>
                     <span class="person-position">Product manager</span>
                   </div>
@@ -1068,35 +1140,61 @@
 
       <!--Follow us-->
       <section class="follow-us py-5 text-center">
-        <div class="container d-flex justify-content-center align-items-center flex-column">
+        <div
+          class="container d-flex justify-content-center align-items-center flex-column"
+        >
           <h2 class="title-for-follow">Follow us @medifit</h2>
           <div class="row gy-5 gy-xl-0 justify-content-center">
             <div class="follow-card col-12 col-md-6 col-lg-4 col-xl-3">
-              <img class="the-image" src="./assets/img/follow-us/man-taking-a-pill.svg" alt="man-taking-a-pill">
+              <img
+                class="the-image"
+                src="./assets/img/follow-us/man-taking-a-pill.svg"
+                alt="man-taking-a-pill"
+              />
               <div class="overlay">
-                <img src="./assets/img/follow-us/insta.svg" alt="insta">
-                <a href="#" class="overlay-text text-decoration-none">@medifit</a>
+                <img src="./assets/img/follow-us/insta.svg" alt="insta" />
+                <a href="#" class="overlay-text text-decoration-none"
+                  >@medifit</a
+                >
               </div>
             </div>
             <div class="follow-card col-12 col-md-6 col-lg-4 col-xl-3">
-              <img class="unique-follow-img the-image" src="./assets/img/follow-us/capsule.svg" alt="capsule">
+              <img
+                class="unique-follow-img the-image"
+                src="./assets/img/follow-us/capsule.svg"
+                alt="capsule"
+              />
               <div class="overlay">
-                <img src="./assets/img/follow-us/insta.svg" alt="insta">
-                <a href="#" class="overlay-text text-decoration-none">@medifit</a>
+                <img src="./assets/img/follow-us/insta.svg" alt="insta" />
+                <a href="#" class="overlay-text text-decoration-none"
+                  >@medifit</a
+                >
               </div>
             </div>
             <div class="follow-card col-12 col-md-6 col-lg-4 col-xl-3">
-              <img class="the-image" src="./assets/img/follow-us/fingers-taking-a-pill.svg" alt="fingers-taking-a-pill">
+              <img
+                class="the-image"
+                src="./assets/img/follow-us/fingers-taking-a-pill.svg"
+                alt="fingers-taking-a-pill"
+              />
               <div class="overlay">
-                <img src="./assets/img/follow-us/insta.svg" alt="insta">
-                <a href="#" class="overlay-text text-decoration-none">@medifit</a>
+                <img src="./assets/img/follow-us/insta.svg" alt="insta" />
+                <a href="#" class="overlay-text text-decoration-none"
+                  >@medifit</a
+                >
               </div>
             </div>
             <div class="follow-card col-12 col-md-6 col-lg-4 col-xl-3">
-              <img class="the-image" src="./assets/img/follow-us/medicine.svg" alt="medicine">
+              <img
+                class="the-image"
+                src="./assets/img/follow-us/medicine.svg"
+                alt="medicine"
+              />
               <div class="overlay">
-                <img src="./assets/img/follow-us/insta.svg" alt="insta">
-                <a href="#" class="overlay-text text-decoration-none">@medifit</a>
+                <img src="./assets/img/follow-us/insta.svg" alt="insta" />
+                <a href="#" class="overlay-text text-decoration-none"
+                  >@medifit</a
+                >
               </div>
             </div>
           </div>
