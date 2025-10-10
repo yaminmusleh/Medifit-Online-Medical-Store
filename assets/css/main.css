@@ -592,21 +592,19 @@ header {
 
 /*index.html end*/
 
-
 /*---------------------Home page start----------------------*/
 
 /*clients slider start*/
-.slider{
+.slider {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background-color: #E2DFCF;
-
+  background-color: #e2dfcf;
 }
-.slider-items{
+.slider-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -615,31 +613,45 @@ header {
   animation: scroll-left 20s linear infinite;
 }
 @keyframes scroll-left {
-  0%{
+  0% {
     transform: translateX(0);
   }
-  100%{
+  100% {
     transform: translateX(-20%);
   }
 }
 /*clients slider end*/
 
 /*bringing trust start*/
-.bring-trust{
+.bring-trust {
   background-color: var(--mainColor);
 }
-.bring-trust .trust-header h2{
+.bring-trust .trust-header h2 {
   font-size: clamp(30px, 4vw, 48px);
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
-.bring-trust span{
+.bring-trust span {
+  font-size: clamp(14px, 4vw, 18px);
+  font-family: sans-serif;
+  color: var(--textFontColor);
+
+}
+
+/* bringing trust end */
+
+/* discover products section start */
+.explore-store .card-title-for-discover .discover-header h2{
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+    font-size: clamp(30px, 4vw, 48px);
+}
+.explore-store .card-title-for-discover .discover-info span{
   font-size: clamp(14px, 4vw, 18px);
   font-family: sans-serif;
   color: var(--textFontColor);
 }
-
-
+/*discover products section end*/
 
 /*-------------------------------------about.html start-------------------------------------*/
 .about-us {
@@ -699,15 +711,13 @@ header {
   .what-to-expect .expect-image {
     height: 35px;
   }
-  
 }
-.what-to-expect .expect-unique{
+.what-to-expect .expect-unique {
   font-size: clamp(16px, 4vw, 18px);
   color: var(--textFontColor);
   font-family: sans-serif;
 }
 /*what to expect section end*/
-
 
 /*-------------------shop-detail.html start-------------------*/
 .pointer-events-none {
@@ -974,12 +984,12 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   transform: translateY(-10px);
   transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
 }
-.ask-card:hover h5 img{
+.ask-card:hover h5 img {
   transition: transform 0.5s ease;
 }
-.ask-card:hover h5 img{
+.ask-card:hover h5 img {
   transform: rotate(45deg);
-} 
+}
 .ask-card:hover .more-ask-info {
   max-height: 500px;
   opacity: 1;
