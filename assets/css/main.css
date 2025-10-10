@@ -139,6 +139,17 @@ header {
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
+.shop-by-categ .category-card .category-title{
+  font-size: 18px;
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+
+}
+.shop-by-categ .category-card .category-items{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: var(--textFontColor);
+}
 .category-icon img {
   max-width: 80px;
 }
