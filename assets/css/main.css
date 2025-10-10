@@ -664,6 +664,40 @@ header {
 }
 /*discover products section end*/
 
+/*healthcare insights start*/
+.healthcare-insights .title-insight h2 {
+  font-size: clamp(24px, 4vw, 48px);
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+}
+.healthcare-insights .card-insight .text-info-for-img{
+  width: 44%;
+}
+@media (max-width: 992px) {
+  .healthcare-insights .card-insight .text-info-for-img{
+    width: 100%;
+  }
+}
+
+.healthcare-insights .card-insight .text-info-for-img .date {
+  font-size: clamp(12px, 4vw, 18px);
+  color: var(--textFontColor);
+  font-family: var(--mainFont);
+}
+.healthcare-insights .card-insight .text-info-for-img .more-info-health{
+  font-size: clamp(14px, 4vw, 24px);
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+  font-weight: 500;
+}
+.healthcare-insights .card-insight .read-more a:hover  span{
+  color: var(--textFontColor);
+  transition: all 0.3s ease;
+}
+.healthcare-insights .card-insight .read-more a:hover img{
+  transform: translateX(7px);
+  transition: all 0.3s ease;
+}
 /*-------------------------------------about.html start-------------------------------------*/
 .about-us {
   background-color: var(--mainColor);
