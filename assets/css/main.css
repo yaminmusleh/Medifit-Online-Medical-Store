@@ -636,6 +636,10 @@ header {
 /*bringing trust start*/
 .bring-trust {
   background-color: var(--mainColor);
+  background-image: url(../img/home.html/bring-trust/fi_4173061.svg);
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 .bring-trust .trust-header h2 {
   font-size: clamp(30px, 4vw, 48px);
@@ -665,6 +669,12 @@ header {
 /*discover products section end*/
 
 /*healthcare insights start*/
+.healthcare-insights{
+  background-image: url(../img/home.html/customer\ review/backimg.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 140px;
+}
 .healthcare-insights .title-insight h2 {
   font-size: clamp(24px, 4vw, 48px);
   color: var(--colorFont);
@@ -703,7 +713,8 @@ header {
 
 /*customer review start*/
 .customer-review {
-  background-color: var(--mainColor);
+  background-color: var(--mainColor); 
+  
 }
 .customer-review h2{
   font-size: clamp(25px, 4vw, 48px);
