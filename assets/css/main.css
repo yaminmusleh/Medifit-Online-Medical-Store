@@ -421,7 +421,12 @@ header {
 /*newsletter start*/
 
 .newsletter {
+  padding: 130px 0;
   background-color: #e8e6de;
+  background-image: url(../img/newsletter/back-img.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px;
 }
 .news1 {
   background-color: #f2f2f2;
@@ -674,7 +679,7 @@ header {
 /*shop by category home*/
 .shop-by-categ__home {
   background-color: #e8e6de;
-  padding: 130px 0;
+  padding: 130px 0 20px 0;
   background-image: url(../img/home.html/shop-by-category/vector.svg);
   background-repeat: no-repeat;
   background-position: top left;
@@ -707,6 +712,29 @@ header {
 }
 /*shop by category home end*/
 
+/*middle cta*/
+.middle-latter{
+  background-color: #E8E6DE;
+  padding: 70px 0 100px 0;
+  background-image: url(../img/home.html/middle-cta/fi_13965105.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 240px;
+}
+.middle-latter .row{
+  gap: 70px;
+}
+.middle-latter .row .latter-text-button .latter-header h2{
+  font-size: clamp(25px, 4vw, 48px);
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+  font-weight: 500;
+}
+.middle-latter .row .latter-text-button .latter-span{
+  font-size: clamp(14px, 4vw, 18px);
+  color: var(--textFontColor);
+  font-family: sans-serif;
+}
 /*healthcare insights start*/
 .healthcare-insights {
   background-image: url(../img/home.html/customer\ review/backimg.svg);
