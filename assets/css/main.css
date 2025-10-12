@@ -139,13 +139,12 @@ header {
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
-.shop-by-categ .category-card .category-title{
+.shop-by-categ .category-card .category-title {
   font-size: 18px;
   font-family: var(--mainFont);
   color: var(--colorFont);
-
 }
-.shop-by-categ .category-card .category-items{
+.shop-by-categ .category-card .category-items {
   font-size: 16px;
   font-family: sans-serif;
   color: var(--textFontColor);
@@ -640,6 +639,7 @@ header {
   background-size: 140px;
   background-repeat: no-repeat;
   background-position: left bottom;
+  padding: 130px 0 80px 0;
 }
 .bring-trust .trust-header h2 {
   font-size: clamp(30px, 4vw, 48px);
@@ -650,41 +650,81 @@ header {
   font-size: clamp(14px, 4vw, 18px);
   font-family: sans-serif;
   color: var(--textFontColor);
-
 }
 
 /* bringing trust end */
 
 /* discover products section start */
-.explore-store .card-title-for-discover .discover-header h2{
+.explore-store {
+  background-color: var(--mainColor) !important;
+  padding: 70px 0;
+}
+.explore-store .card-title-for-discover .discover-header h2 {
   font-family: var(--mainFont);
   color: var(--colorFont);
-    font-size: clamp(30px, 4vw, 48px);
+  font-size: clamp(30px, 4vw, 48px);
 }
-.explore-store .card-title-for-discover .discover-info span{
+.explore-store .card-title-for-discover .discover-info span {
   font-size: clamp(14px, 4vw, 18px);
   font-family: sans-serif;
   color: var(--textFontColor);
 }
 /*discover products section end*/
 
+/*shop by category home*/
+.shop-by-categ__home {
+  background-color: #e8e6de;
+  padding: 130px 0;
+  background-image: url(../img/home.html/shop-by-category/vector.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.shop-by-categ__home .categ-card-home {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.categ-text-home {
+  width: 51%;
+}
+.shop-by-categ__home .categ-card-home .categ-text-home .inside-text {
+  font-size: clamp(14px, 4vw, 18px);
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+}
+.shop-by-categ__home h2{
+  font-size: clamp(25px, 4vw, 48px);
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+}
+@media (max-width: 768px) {
+  .shop-by-categ__home a {
+    width: fit-content !important;
+  }
+}
+.shop-by-categ__home a:hover .categ-card-home {
+  transform: scale(1.05);
+}
+/*shop by category home end*/
+
 /*healthcare insights start*/
-.healthcare-insights{
+.healthcare-insights {
   background-image: url(../img/home.html/customer\ review/backimg.svg);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 140px;
+  padding: 170px 0;
 }
 .healthcare-insights .title-insight h2 {
   font-size: clamp(24px, 4vw, 48px);
   color: var(--colorFont);
   font-family: var(--mainFont);
 }
-.healthcare-insights .card-insight .text-info-for-img{
+.healthcare-insights .card-insight .text-info-for-img {
   width: 44%;
 }
 @media (max-width: 992px) {
-  .healthcare-insights .card-insight .text-info-for-img{
+  .healthcare-insights .card-insight .text-info-for-img {
     width: 100%;
   }
 }
@@ -694,17 +734,17 @@ header {
   color: var(--textFontColor);
   font-family: var(--mainFont);
 }
-.healthcare-insights .card-insight .text-info-for-img .more-info-health{
+.healthcare-insights .card-insight .text-info-for-img .more-info-health {
   font-size: clamp(14px, 4vw, 24px);
   color: var(--colorFont);
   font-family: var(--mainFont);
   font-weight: 500;
 }
-.healthcare-insights .card-insight .read-more a:hover  span{
+.healthcare-insights .card-insight .read-more a:hover span {
   color: var(--textFontColor);
   transition: all 0.3s ease;
 }
-.healthcare-insights .card-insight .read-more a:hover img{
+.healthcare-insights .card-insight .read-more a:hover img {
   transform: translateX(7px);
   transition: all 0.3s ease;
 }
@@ -713,25 +753,25 @@ header {
 
 /*customer review start*/
 .customer-review {
-  background-color: var(--mainColor); 
-  
+  background-color: var(--mainColor);
+  padding: 102px 0 0 0;
 }
-.customer-review h2{
+.customer-review h2 {
   font-size: clamp(25px, 4vw, 48px);
   color: var(--colorFont);
   font-family: var(--mainFont);
 }
-.customer-review .top-of-card{
+.customer-review .top-of-card {
   background-color: #f2f2f2;
   padding: 4.27% 10.76% 4% 7.76%;
-  border-radius:24px 24px 24px 0 ;
+  border-radius: 24px 24px 24px 0;
 }
-.customer-review .top-of-card span{
+.customer-review .top-of-card span {
   font-size: clamp(14px, 4vw, 18px);
   color: var(--textFontColor);
   font-family: sans-serif;
 }
-.customer-review .bottom-of-card .name-of-person span{
+.customer-review .bottom-of-card .name-of-person span {
   font-size: clamp(14px, 4vw, 18px);
   color: var(--colorFont);
   font-family: var(--mainFont);
