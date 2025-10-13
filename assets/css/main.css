@@ -277,6 +277,7 @@ header {
 .latest-prods .title-for-latest {
   font-size: clamp(30px, 3vw, 48px);
   color: var(--colorFont);
+  font-family: var(--mainFont);
 }
 .latest-prods .row {
   padding-top: 60px;
@@ -609,6 +610,43 @@ header {
 
 /*---------------------Home page start----------------------*/
 
+/*hero secion start*/
+.hero-home {
+  
+  background-color: #e8e6de;
+}
+
+.hero-home .wrapper {
+  padding: 6%;
+}
+.hero-home .wrapper h2 {
+  font-size: clamp(34px, 4vw, 68px);
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+}
+.hero-home .wrapper .hero-btn a button {
+  font-family: sans-serif;
+  font-size: clamp(14px, 4vw, 18px);
+}
+.hero-home .wrapper .text-home span{
+  font-family: sans-serif;
+  font-size: clamp(14px, 4vw, 18px);
+  color: var(--colorFont);
+}
+.hero-home .card-home{
+  row-gap: 80px;
+}
+.hero-home .img-class-home img{
+  height: 100%!important;
+}
+@media (max-width: 327px){
+ .hero-info-home .hero-img-home img{
+  width: 80%;
+  height: auto;
+ }
+}
+/*hero section end*/
+
 /*clients slider start*/
 .slider {
   display: flex;
@@ -697,7 +735,7 @@ header {
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
-.shop-by-categ__home h2{
+.shop-by-categ__home h2 {
   font-size: clamp(25px, 4vw, 48px);
   font-family: var(--mainFont);
   color: var(--colorFont);
@@ -713,24 +751,24 @@ header {
 /*shop by category home end*/
 
 /*middle cta*/
-.middle-latter{
-  background-color: #E8E6DE;
+.middle-latter {
+  background-color: #e8e6de;
   padding: 70px 0 100px 0;
   background-image: url(../img/home.html/middle-cta/fi_13965105.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 240px;
 }
-.middle-latter .row{
+.middle-latter .row {
   gap: 70px;
 }
-.middle-latter .row .latter-text-button .latter-header h2{
+.middle-latter .row .latter-text-button .latter-header h2 {
   font-size: clamp(25px, 4vw, 48px);
   color: var(--colorFont);
   font-family: var(--mainFont);
   font-weight: 500;
 }
-.middle-latter .row .latter-text-button .latter-span{
+.middle-latter .row .latter-text-button .latter-span {
   font-size: clamp(14px, 4vw, 18px);
   color: var(--textFontColor);
   font-family: sans-serif;
