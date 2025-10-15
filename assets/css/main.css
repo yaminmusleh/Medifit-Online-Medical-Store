@@ -612,7 +612,6 @@ header {
 
 /*hero secion start*/
 .hero-home {
-  
   background-color: #e8e6de;
 }
 
@@ -628,22 +627,22 @@ header {
   font-family: sans-serif;
   font-size: clamp(14px, 4vw, 18px);
 }
-.hero-home .wrapper .text-home span{
+.hero-home .wrapper .text-home span {
   font-family: sans-serif;
   font-size: clamp(14px, 4vw, 18px);
   color: var(--colorFont);
 }
-.hero-home .card-home{
+.hero-home .card-home {
   row-gap: 80px;
 }
-.hero-home .img-class-home img{
-  height: 100%!important;
+.hero-home .img-class-home img {
+  height: 100% !important;
 }
-@media (max-width: 327px){
- .hero-info-home .hero-img-home img{
-  width: 80%;
-  height: auto;
- }
+@media (max-width: 327px) {
+  .hero-info-home .hero-img-home img {
+    width: 80%;
+    height: auto;
+  }
 }
 /*hero section end*/
 
@@ -844,6 +843,16 @@ header {
   font-weight: 500;
 }
 /*-------------------------------------about.html start-------------------------------------*/
+
+.health-unique-imgs {
+  background-color: var(--mainColor);
+  padding: 180px 0 100px 0;
+}
+.health-unique-imgs .container h2 {
+  color: var(--colorFont);
+  font-size: clamp(30px, 4vw, 70px);
+  font-family: var(--mainFont);
+}
 .about-us {
   background-color: var(--mainColor);
 }
