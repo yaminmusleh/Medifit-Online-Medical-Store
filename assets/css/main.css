@@ -19,9 +19,7 @@ body {
 header {
   z-index: 1000;
 }
-.custom-background {
-  background-color: var(--mainColor);
-}
+
 
 .navbar-brand {
   padding: 15px 0;
@@ -1200,4 +1198,76 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   transform: Adds a smooth "slide up" motion.
   transition: Animates the changes.
   */
+}
+/*---------------------sign in page-------------------*/
+.custom-background {
+  background-color: var(--mainColor);
+}
+.sign-in-page{
+  height: 100vh;
+}
+
+.sign-in-page .left-header-sign .sign-title h2{
+  font-size: clamp(25px ,4vw, 35);
+  font-family: var(--mainFont);
+  color: var(--colorFont);
+}
+.sign-in-page .sign-left{
+  row-gap: 59px;
+}
+.sign-in-page .left-header-sign .sign-span span{
+  font-size: clamp(13px ,4vw, 16px);
+  font-family: sans-serif;
+  color: var(--textFontColor);
+}
+.sign-in-page .card-contact{
+  width: 52%;
+}
+.sign-in-page .card-contact a{
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-top: 20px;
+}
+.sign-in-page .card-contact label{
+  color: var(--colorFont);
+  font-size: 18px;
+  font-family: var(--mainFont);
+  font-weight: 500;
+}
+.sign-in-page .card-contact .form-control{
+  padding-left: 22px!important;
+}
+.sign-in-page .card-contact .btn-dark{
+  background-color: var(--colorFont);
+  font-family: var(--mainFont);
+}
+.sign-in-page .card-contact .btn-dark:hover{
+  background-color: #653e1c;
+}
+.sign-in-page .sign-right{
+  overflow: hidden;
+  
+  height: 100%;
+  position: relative;
+}
+
+.sign-in-page .sign-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.sign-in-page .doesnt-have-account{
+  font-size: clamp(12px,4vw,14px);
+  font-weight: 500;
+}
+.sign-in-page .doesnt-have-account a{
+  color: var(--textFontColor)!important;
+  font-family: var(--mainFont);
+}
+@media (max-width: 768px){
+  .sign-in-page .sign-left .card-contact{
+    width: 80%;
+  }
+  
 }

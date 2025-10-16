@@ -19,18 +19,66 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body class="custom-background">
-  
     <main>
-      <!--sign in section-->
-      <section class="sign-in-section d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-  <div class="container d-flex justify-content-center">
-    <div class="row">
-      <div class="sign col-12">
-        
-      </div>
-    </div>
-  </div>
-</section>
+      <section
+        class="sign-in-page text-start d-flex justify-content-center align-items-center"
+      >
+        <div class="sign-left col-12 col-md-6 d-flex flex-column">
+              <div class="left-header-sign text-center">
+                <div class="sign-title">
+                  <h2>Welcome back!</h2>
+                </div>
+                <div class="sign-span">
+                  <span>Enter your Credentials to access your account</span>
+                </div>
+              </div>
+
+              <div class="seperater d-flex flex-column row-gap-3 align-items-center">
+                <div
+                  class="card-contact d-flex flex-column text-start justify-content-center align-items-start"
+                >
+                  <label for="email" class="form-label">Email address</label>
+                  <div class="input-group">
+                    
+
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control tall-input"
+                       placeholder="Enter your Email"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="card-contact d-flex flex-column text-start justify-content-center align-items-start"
+                >
+                  <label for="password" class="form-label">Password</label>
+                  <div class="input-group">
+                    
+                    <input
+                      type="password"
+                      id="password"
+                      class="form-control tall-input"
+                      placeholder="Enter your Password"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-contact justify-content-center align-items-center text-center">
+                  <a href="./index.html " class="btn mb-3 btn-dark">Sign in</a>
+                </div>
+                <div class="doesnt-have-account">
+                  <a class="text-decoration-underline" href="#">Still not a member? <strong>Sign Up</strong></a>
+                </div>
+                <div class="doesnt-have-account">
+                  <a class="text-decoration-underline" href="./home.html">Return to <strong>Home page</strong></a>
+                </div>
+              </div>
+            </div>
+            <div class="sign-right col-12 col-md-6 d-none d-md-block">
+              <img src="./assets/img/sign-in/Protein-Jar-Mockup.jpg" alt="Protein-Jar-Mockup">
+            </div>
+      </section>
     </main>
   </body>
 </html>
