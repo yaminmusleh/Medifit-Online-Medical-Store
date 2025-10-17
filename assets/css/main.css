@@ -1213,7 +1213,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   color: var(--colorFont);
 }
 .sign-in-page .sign-left{
-  row-gap: 59px;
+  row-gap: 40px;
 }
 .sign-in-page .left-header-sign .sign-span span{
   font-size: clamp(13px ,4vw, 16px);
@@ -1243,6 +1243,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 .sign-in-page .card-contact .btn-dark:hover{
   background-color: #653e1c;
+  transition: all 0.3s ease;
 }
 .sign-in-page .sign-right{
   overflow: hidden;
@@ -1258,16 +1259,26 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   object-position: center top;
 }
 .sign-in-page .doesnt-have-account{
-  font-size: clamp(12px,4vw,14px);
+  font-size: clamp(12px,4vw,16px);
   font-weight: 500;
 }
+
 .sign-in-page .doesnt-have-account a{
   color: var(--textFontColor)!important;
   font-family: var(--mainFont);
+}
+.sign-in-page .doesnt-have-account a:hover{
+  color: #503217 !important;;
+  transition: all 0.4s ease;
 }
 @media (max-width: 768px){
   .sign-in-page .sign-left .card-contact{
     width: 80%;
   }
   
+}
+/*------------------sign up page---------------*/
+
+.sign-in-page .sign-up-title{
+  padding: 0 7%;
 }
