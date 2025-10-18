@@ -535,6 +535,7 @@ header {
     url(../img/footer-imgs/pills.svg);
   background-position: left bottom, right top;
   background-repeat: no-repeat;
+  padding:80px 0 40px 0;
 }
 .footer-info {
   column-gap: 35px;
@@ -697,7 +698,7 @@ header {
 /* discover products section start */
 .explore-store {
   background-color: var(--mainColor) !important;
-  padding: 70px 0;
+  padding: 0 0 114px 0;
 }
 .explore-store .card-title-for-discover .discover-header h2 {
   font-family: var(--mainFont);
@@ -714,10 +715,11 @@ header {
 /*shop by category home*/
 .shop-by-categ__home {
   background-color: #e8e6de;
-  padding: 130px 0 20px 0;
+  padding: 146px 0 130px 0;
   background-image: url(../img/home.html/shop-by-category/vector.svg);
   background-repeat: no-repeat;
   background-position: top left;
+  background-size: 120px;
 }
 .shop-by-categ__home .categ-card-home {
   background-color: #f2f2f2;
@@ -750,11 +752,11 @@ header {
 /*middle cta*/
 .middle-latter {
   background-color: #e8e6de;
-  padding: 70px 0 100px 0;
+  padding: 0 0 114px 0;
   background-image: url(../img/home.html/middle-cta/fi_13965105.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 240px;
+  background-size: 220px;
 }
 .middle-latter .row {
   gap: 70px;
@@ -772,11 +774,8 @@ header {
 }
 /*healthcare insights start*/
 .healthcare-insights {
-  background-image: url(../img/home.html/customer\ review/backimg.svg);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 140px;
-  padding: 170px 0;
+  
+  padding: 0 0 130px 0;
 }
 .healthcare-insights .title-insight h2 {
   font-size: clamp(24px, 4vw, 48px);
@@ -817,7 +816,11 @@ header {
 /*customer review start*/
 .customer-review {
   background-color: var(--mainColor);
-  padding: 102px 0 0 0;
+  padding: 60px 0 174px 0;
+  background-image: url(../img/home.html/customer\ review/backimg.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 140px;
 }
 .customer-review h2 {
   font-size: clamp(25px, 4vw, 48px);
@@ -844,7 +847,7 @@ header {
 
 .health-unique-imgs {
   background-color: var(--mainColor);
-  padding: 180px 0 100px 0;
+  padding: 150px 0 0 0;
 }
 .health-unique-imgs .container h2 {
   color: var(--colorFont);
@@ -853,6 +856,7 @@ header {
 }
 .about-us {
   background-color: var(--mainColor);
+  padding: 130px 0;
 }
 .about-us .about-us-header h2 {
   font-size: clamp(30px, 4vw, 58px);
@@ -948,6 +952,9 @@ header {
   z-index: 2;
 }
 
+.cta-section{
+  padding:130px 0;
+}
 .cta-section .cta-text {
   font-size: clamp(23px, 3vw, 45px) !important;
 }
@@ -967,6 +974,7 @@ header {
 /*Shop Services section start*/
 .shop-services {
   background-color: var(--mainColor);
+  padding-bottom: 130px;
 }
 .shop-services span {
   font-family: var(--mainFont);
@@ -1065,7 +1073,8 @@ header {
 .contact-section {
   background-image: url(../img/shop-detail/b12-details/Decoration.svg);
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: 25px bottom;
+  padding-top: 169px;
 }
 .card-contact {
   width: 34%;
@@ -1149,6 +1158,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 200px;
+  padding-top: 128px;
 }
 .asked-questions h2 {
   font-size: clamp(30px, 4vw, 58px);
