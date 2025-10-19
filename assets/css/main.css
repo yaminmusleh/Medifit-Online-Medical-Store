@@ -1299,3 +1299,18 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .sign-in-page .sign-up-title{
   padding: 0 7%;
 }
+
+/*-------------------shop.html page-----------------*/
+#shop-html-prods{
+  padding-top: 120px;
+  background-color: var(--mainColor)!important;
+}
+
+#shop-html-prods .title-for-latest{
+  font-size: clamp(25px,4vw,48px);
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+}
+#shop-html-prods span{
+  font-family: var(--mainFont);
+}
