@@ -270,10 +270,11 @@ header {
 }
 .card-body h2 {
   color: var(--colorFont);
-  font-size: clamp(16px, 3vw, 24px);
+  font-size: clamp(20px, 3vw, 24px);
+  text-align: start;
 }
 .card-body span {
-  font-size: clamp(13px, 3vw, 18px);
+  font-size: clamp(16px, 3vw, 19px);
   color: var(--textFontColor);
 }
 .latest-prods .title-for-latest {
@@ -1305,12 +1306,29 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   padding-top: 120px;
   background-color: var(--mainColor)!important;
 }
-
+#shop-html-prods .card-img-latest{
+margin: auto;
+}
 #shop-html-prods .title-for-latest{
   font-size: clamp(25px,4vw,48px);
   color: var(--colorFont);
   font-family: var(--mainFont);
 }
 #shop-html-prods span{
+  font-family: var(--mainFont);
+}
+#bodywash-unique{
+  padding-top: 120px;
+  background-color: var(--mainColor)!important;
+}
+#bodywash-unique .card-img-latest{
+  margin: auto;
+}
+#bodywash-unique .title-for-latest{
+  font-size: clamp(25px,4vw,48px);
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+}
+#bodywash-unique span{
   font-family: var(--mainFont);
 }
