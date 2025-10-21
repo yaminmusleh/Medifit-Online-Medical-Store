@@ -257,6 +257,9 @@ header {
   width: 100%;
   visibility: hidden;
 }
+.card-img-latest{
+  width: 100%;
+}
 .card-img-latest a {
   color: var(--colorFont);
   width: 100%;
