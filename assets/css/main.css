@@ -20,7 +20,6 @@ header {
   z-index: 1000;
 }
 
-
 .navbar-brand {
   padding: 15px 0;
 }
@@ -257,7 +256,7 @@ header {
   width: 100%;
   visibility: hidden;
 }
-.card-img-latest{
+.card-img-latest {
   width: 100%;
 }
 .card-img-latest a {
@@ -407,7 +406,7 @@ header {
 /*Explore store section start*/
 
 .explore-store {
-  background-color: #E8E6DE;
+  background-color: #e8e6de;
   padding: 130px 0 0 0;
 }
 .explore-store .title-for-explore {
@@ -546,7 +545,7 @@ header {
     url(../img/footer-imgs/pills.svg);
   background-position: left bottom, right top;
   background-repeat: no-repeat;
-  padding:80px 0 40px 0;
+  padding: 80px 0 40px 0;
 }
 .footer-info {
   column-gap: 35px;
@@ -785,7 +784,6 @@ header {
 }
 /*healthcare insights start*/
 .healthcare-insights {
-  
   padding: 0 0 130px 0;
 }
 .healthcare-insights .title-insight h2 {
@@ -963,8 +961,8 @@ header {
   z-index: 2;
 }
 
-.cta-section{
-  padding:130px 0;
+.cta-section {
+  padding: 130px 0;
 }
 .cta-section .cta-text {
   font-size: clamp(23px, 3vw, 45px) !important;
@@ -1224,51 +1222,51 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .custom-background {
   background-color: var(--mainColor);
 }
-.sign-in-page{
+.sign-in-page {
   height: 100vh;
 }
 
-.sign-in-page .left-header-sign .sign-title h2{
-  font-size: clamp(25px ,4vw, 35);
+.sign-in-page .left-header-sign .sign-title h2 {
+  font-size: clamp(25px, 4vw, 35);
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
-.sign-in-page .sign-left{
+.sign-in-page .sign-left {
   row-gap: 40px;
 }
-.sign-in-page .left-header-sign .sign-span span{
-  font-size: clamp(13px ,4vw, 16px);
+.sign-in-page .left-header-sign .sign-span span {
+  font-size: clamp(13px, 4vw, 16px);
   font-family: sans-serif;
   color: var(--textFontColor);
 }
-.sign-in-page .card-contact{
+.sign-in-page .card-contact {
   width: 52%;
 }
-.sign-in-page .card-contact a{
+.sign-in-page .card-contact a {
   padding-left: 16%;
   padding-right: 16%;
   margin-top: 20px;
 }
-.sign-in-page .card-contact label{
+.sign-in-page .card-contact label {
   color: var(--colorFont);
   font-size: 18px;
   font-family: var(--mainFont);
   font-weight: 500;
 }
-.sign-in-page .card-contact .form-control{
-  padding-left: 22px!important;
+.sign-in-page .card-contact .form-control {
+  padding-left: 22px !important;
 }
-.sign-in-page .card-contact .btn-dark{
+.sign-in-page .card-contact .btn-dark {
   background-color: var(--colorFont);
   font-family: var(--mainFont);
 }
-.sign-in-page .card-contact .btn-dark:hover{
+.sign-in-page .card-contact .btn-dark:hover {
   background-color: #653e1c;
   transition: all 0.3s ease;
 }
-.sign-in-page .sign-right{
+.sign-in-page .sign-right {
   overflow: hidden;
-  
+
   height: 100%;
   position: relative;
 }
@@ -1279,59 +1277,98 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   object-fit: cover;
   object-position: center top;
 }
-.sign-in-page .doesnt-have-account{
-  font-size: clamp(12px,4vw,16px);
+.sign-in-page .doesnt-have-account {
+  font-size: clamp(12px, 4vw, 16px);
   font-weight: 500;
 }
 
-.sign-in-page .doesnt-have-account a{
-  color: var(--textFontColor)!important;
+.sign-in-page .doesnt-have-account a {
+  color: var(--textFontColor) !important;
   font-family: var(--mainFont);
 }
-.sign-in-page .doesnt-have-account a:hover{
-  color: #503217 !important;;
+.sign-in-page .doesnt-have-account a:hover {
+  color: #503217 !important;
   transition: all 0.4s ease;
 }
-@media (max-width: 768px){
-  .sign-in-page .sign-left .card-contact{
+@media (max-width: 768px) {
+  .sign-in-page .sign-left .card-contact {
     width: 80%;
   }
-  
 }
 /*------------------sign up page---------------*/
 
-.sign-in-page .sign-up-title{
+.sign-in-page .sign-up-title {
   padding: 0 7%;
 }
 
 /*-------------------shop.html page-----------------*/
-#shop-html-prods{
+#shop-html-prods {
   padding-top: 120px;
-  background-color: var(--mainColor)!important;
+  background-color: var(--mainColor) !important;
 }
-#shop-html-prods .card-img-latest{
-margin: auto;
-}
-#shop-html-prods .title-for-latest{
-  font-size: clamp(25px,4vw,48px);
-  color: var(--colorFont);
-  font-family: var(--mainFont);
-}
-#shop-html-prods span{
-  font-family: var(--mainFont);
-}
-#bodywash-unique{
-  padding-top: 120px;
-  background-color: var(--mainColor)!important;
-}
-#bodywash-unique .card-img-latest{
+#shop-html-prods .card-img-latest {
   margin: auto;
 }
-#bodywash-unique .title-for-latest{
-  font-size: clamp(25px,4vw,48px);
+#shop-html-prods .title-for-latest {
+  font-size: clamp(25px, 4vw, 48px);
   color: var(--colorFont);
   font-family: var(--mainFont);
 }
-#bodywash-unique span{
+#shop-html-prods span {
   font-family: var(--mainFont);
+}
+#bodywash-unique {
+  padding-top: 120px;
+  background-color: var(--mainColor) !important;
+}
+#bodywash-unique .card-img-latest {
+  margin: auto;
+}
+#bodywash-unique .title-for-latest {
+  font-size: clamp(25px, 4vw, 48px);
+  color: var(--colorFont);
+  font-family: var(--mainFont);
+}
+#bodywash-unique span {
+  font-family: var(--mainFont);
+}
+#shop__html .latest-prods {
+  padding-bottom: 50px;
+}
+.carousel-for-shop {
+  background-color: #e8e6de;
+
+  background-image: url(../img/follow-us/pills-follow.svg),
+    url(../img/hero-index-html/doctor.svg),
+    url(../img/home.html/middle-cta/fi_13965105.svg),
+    url(../img/footer-imgs/pills.svg);
+  background-repeat: no-repeat;
+  background-position: left top, left bottom, right bottom, right top;
+  background-size: 139px, 250px, 220px;
+}
+#carousel h5 {
+  color: var(--colorFont);
+  font-size: 30px;
+  font-family: var(--mainFont);
+  font-weight: 700;
+}
+#carousel p {
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#carousel .carousel-caption h5 {
+  margin-bottom: 25px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Turns default white arrows to black */
+  background-color: transparent; /* Optional: in case it has bg */
+}
+.carousel-indicators [data-bs-target]{
+  background-color: var(--textFontColor);
+}
+.carousel-indicators .active{
+  background-color: var(--colorFont);
 }
