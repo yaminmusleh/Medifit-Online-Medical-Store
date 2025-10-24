@@ -454,8 +454,12 @@ header {
   justify-content: center;
   gap: 5px;
 }
+.navbar-letter form a:hover {
+  background-color: #653e1c;
+  transition: all 0.3s ease;
+}
 .news-top span {
-  font-size: 24px;
+  font-size: clamp(20px, 4vw, 24px);
   font-family: var(--mainFont);
   color: #6c543e;
 }
@@ -1227,7 +1231,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .sign-in-page .left-header-sign .sign-title h2 {
-  font-size: clamp(25px, 4vw, 35);
+  font-size: clamp(25px, 4vw, 35px);
   font-family: var(--mainFont);
   color: var(--colorFont);
 }
@@ -1366,9 +1370,12 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   filter: invert(100%); /* Turns default white arrows to black */
   background-color: transparent; /* Optional: in case it has bg */
 }
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
   background-color: var(--textFontColor);
 }
-.carousel-indicators .active{
+.carousel-indicators .active {
   background-color: var(--colorFont);
+}
+.video-for-store {
+  background-color: var(--mainColor);
 }
