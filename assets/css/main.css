@@ -1235,11 +1235,13 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 /*---------------------sign in page-------------------*/
 .custom-background {
   background-color: var(--mainColor);
+ 
 }
 .sign-in-page {
   min-height: 100dvh;
   align-items: flex-start;
   padding: 4rem 0;
+
 }
 
 .sign-in-page .left-header-sign .sign-title h2 {
