@@ -29,6 +29,16 @@ header {
 .navbar-nav .nav-item .nav-link:hover {
   color: #804b1c;
   transition: all 0.3s ease;
+  
+}
+.dropdown-menu .dropdown-item{
+  color: var(--colorFont)!important;
+  font-family: var(--mainFont);
+
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: var(--mainColor);
+    transition: all 0.3s ease;
 }
 .navbar {
   position: relative;
@@ -1227,7 +1237,9 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   background-color: var(--mainColor);
 }
 .sign-in-page {
-  height: 100vh;
+  min-height: 100dvh;
+  align-items: flex-start;
+  padding: 4rem 0;
 }
 
 .sign-in-page .left-header-sign .sign-title h2 {
@@ -1236,7 +1248,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   color: var(--colorFont);
 }
 .sign-in-page .sign-left {
-  row-gap: 40px;
+  row-gap: 30px;
 }
 .sign-in-page .left-header-sign .sign-span span {
   font-size: clamp(13px, 4vw, 16px);
@@ -1378,4 +1390,10 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 .video-for-store {
   background-color: var(--mainColor);
+}
+.video-for-store video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
 }
